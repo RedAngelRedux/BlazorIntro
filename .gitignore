@@ -34,5 +34,5 @@ project.assets.json
 bin/
 obj/
 
-# Ensure BlazorTasker is NOT ignored since it has its own repo
-!BlazorTasker/
+# ignore since it has its own repo
+BlazorTasker/
