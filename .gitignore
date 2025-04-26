@@ -1,0 +1,38 @@
+# Ignore Visual Studio user-specific files (solution-related)
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore global build directories
+.vs/
+packages/
+project.lock.json
+project.assets.json
+
+# Ignore output artifacts
+*.dll
+*.exe
+*.lib
+*.pdb
+*.nupkg
+
+# Ignore workspace settings
+.vscode/
+.idea/
+*.DS_Store
+
+# Ignore temp and backup files
+*.tmp
+*.bak
+
+# Ignore environment and config files (optional)
+.env
+*.config
+
+# Ignore all build artifacts EXCEPT the BlazorTasker repo
+bin/
+obj/
+
+# Ensure BlazorTasker is NOT ignored since it has its own repo
+!BlazorTasker/
