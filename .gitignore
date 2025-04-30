@@ -33,6 +33,5 @@ project.assets.json
 # Ignore all build artifacts EXCEPT the BlazorTasker repo
 bin/
 obj/
-
-# ignore since it has its own repo
 BlazorTasker/
+
